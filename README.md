@@ -12,12 +12,9 @@ An Arduino-based autonomous robot that follows a black line on a white surface u
 
 > _Add photos/videos of the robot in action here_
 
-<!-- 
-  Drag and drop your images into this section on GitHub, or use:
-  ![Demo](assets/demo.jpg)
-  Or for a video, upload to YouTube and link it:
-  [![Watch the demo](thumbnail.jpg)](https://youtu.be/your-link)
--->
+![Front view](assets/Image1.jpg)
+![Side view](assets/Image2.jpg)
+![Working demo](assets/Video3.mp4)
 
 ---
 
