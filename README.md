@@ -10,8 +10,6 @@ An Arduino-based autonomous robot that follows a black line on a white surface u
 
 ## 📸 Demo
 
-> _Add photos/videos of the robot in action here_
-
 ![Front view](assets/Image1.jpeg)
 ![Side view](assets/Image2.jpeg)
 
@@ -61,13 +59,6 @@ When both sensors lose the line, the robot uses the **last turn direction** to r
 
 ---
 
-## 🔌 Circuit Diagram
-
-> _Add your circuit diagram image here_
-
-<!-- ![Circuit](assets/circuit.png) -->
-
----
 
 ## 🚀 Getting Started
 
