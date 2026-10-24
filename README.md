@@ -13,6 +13,8 @@ An Arduino-based autonomous robot that follows a black line on a white surface u
 ![Front view](assets/Image1.jpeg)
 ![Side view](assets/Image2.jpeg)
 
+Demo videos: [run 1](assets/Video1.mp4) · [run 2](assets/Video2.mp4) · [run 3](assets/Video3.mp4)
+
 ---
 
 ## ⚙️ How It Works
@@ -71,7 +73,7 @@ When both sensors lose the line, the robot uses the **last turn direction** to r
    ```bash
    git clone https://github.com/Ashritha-Abbabathula/line_follower.git
    ```
-2. Open `track_runner.ino` in the Arduino IDE
+2. Open `line_follower.ino` in the Arduino IDE
 3. Select **Board**: Arduino Uno and the correct **Port**
 4. Click **Upload**
 
@@ -79,7 +81,7 @@ When both sensors lose the line, the robot uses the **last turn direction** to r
 
 ## 🎛️ Tuning Parameters
 
-You can adjust these constants in `track_runner.ino` to suit your surface and motors:
+You can adjust these constants in `line_follower.ino` to suit your surface and motors:
 
 ```cpp
 const int IR_THRESHOLD = 500;   // Adjust based on your IR sensor sensitivity
@@ -93,13 +95,13 @@ const int TURN_SPEED   = 110;   // Turning speed (0–255)
 
 ```
 line_follower/
-├── track_runner.ino      # Main Arduino sketch
-├── assets/               # Photos, videos, circuit diagrams
-│   ├── Image1
-│   └── Image2
-│   └── Video1
-│   └── Video2
-│   └── Video3
+├── line_follower.ino     # Main Arduino sketch
+├── assets/               # Photos and demo videos
+│   ├── Image1.jpeg
+│   ├── Image2.jpeg
+│   ├── Video1.mp4
+│   ├── Video2.mp4
+│   └── Video3.mp4
 └── README.md
 ```
 
